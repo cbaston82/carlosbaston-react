@@ -42,6 +42,7 @@ const Contact = () => (
           </h1>
         </div>
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" id="get-in-touch-form">
+          <input type="hidden" name="bot-field" />
           <div className="col-md-6">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_name">
@@ -52,9 +53,7 @@ const Contact = () => (
                 type="text"
                 name="contact_name"
                 className="form-control input-lg"
-                id="contact_name"
                 placeholder="Your Name"
-                required
               />
             </div>
           </div>
@@ -68,9 +67,7 @@ const Contact = () => (
                 type="email"
                 name="contact_email"
                 className="form-control input-lg"
-                id="contact_email"
                 placeholder="Your Email"
-                required
               />
             </div>
           </div>
@@ -84,9 +81,7 @@ const Contact = () => (
                 type="text"
                 name="contact_subject"
                 className="form-control input-lg"
-                id="contact_subject"
                 placeholder="Your Subject"
-                required
               />
             </div>
           </div>
@@ -102,8 +97,6 @@ const Contact = () => (
                 name="contact_words"
                 rows="5"
                 className="form-control input-lg"
-                id="contact_words"
-                required
               />
             </div>
           </div>

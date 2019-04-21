@@ -35,42 +35,44 @@ class ChuckNorris extends React.Component {
     return (
       joke
         && (
-        <div
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            background: '#c7ebff',
+          <section style={{
+            background: 'rgb(199, 235, 255)',
             padding: '7px 0px',
           }}
-          className="col-sm-12 text-center"
-        >
-          <img
-            className="chuck_norris_face"
-            style={{ height: '40px' }}
-            src="assets/img/chuck_norris.png"
-            alt=""
-            title=""
-          />
-          <p className="joke">{joke}</p>
-          <button
-            type="button"
-            className="btn btn-link"
-            onClick={this.next}
-            rel="noopener noreferrer"
           >
+            <div className="container">
+              <div className="row clearfix">
+                <div
+                  className="col-sm-12 text-center vissible-lg"
+                >
+                  <img
+                    className="chuck_norris_face"
+                    style={{ height: '40px' }}
+                    src="assets/img/chuck_norris.png"
+                    alt=""
+                    title=""
+                  />
+                  <p className="joke">{joke}</p>
+                  <button
+                    type="button"
+                    className="btn btn-link"
+                    onClick={this.next}
+                    rel="noopener noreferrer"
+                  >
             Get Another Joke
-          </button>
+                  </button>
           &nbsp; | &nbsp;
-          <a
-            href="https://github.com/ImagineDesignDevelop/chuck_norris_terminal_jokes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get these jokes in your terminal
-            <span role="img" aria-label="computer emoji"> 💻</span>
-            <span role="img" aria-label="computer emoji"> 🖥️</span>
-          </a>
-        </div>
+                  <a
+                    href="https://github.com/ImagineDesignDevelop/chuck_norris_terminal_jokes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get these jokes in your terminal
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
         )
     );
   }

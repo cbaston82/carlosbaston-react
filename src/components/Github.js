@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const Github = () => (
-  <section style={{ position: 'relative' }} id="github-section">
+  <section id="github-section">
     <div className="container">
       <div className="row clearfix">
         <div className="col-md-12 text-center">

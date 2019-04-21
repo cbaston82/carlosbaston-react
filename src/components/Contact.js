@@ -42,6 +42,7 @@ const Contact = () => (
           </h1>
         </div>
         <form name="contact" method="post" id="get-in-touch-form">
+          <input type="hidden" name="form-name" value="contact" />
           <div className="col-md-6">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_name">

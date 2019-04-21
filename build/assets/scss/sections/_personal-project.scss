@@ -1,0 +1,35 @@
+#personal-project-section{
+  @extend %theme-section-1;
+  background-color: $bam-blue;
+
+  .container{
+
+    @extend %animate-down;
+
+    .hero-logo-img{
+      height: 150px;
+    	margin: 0 auto 30px;
+    }
+
+    h1{
+      @extend %theme-header-1;
+      color: $white;
+    }
+
+    .hero-welcome {
+     	font-size: 20px;
+     	color:#ffffff;
+     	margin: 0 auto 30px;
+     	text-shadow: 0 2px 0 rgba(0,0,0,.30);
+     }
+
+
+
+     .version{
+     	margin-top: 15px;
+     	color: #A4BDCE;
+     	text-shadow: 0 2px 0 rgba(0,0,0,.30);
+     }
+
+  }
+}

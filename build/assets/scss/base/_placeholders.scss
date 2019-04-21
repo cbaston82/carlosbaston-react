@@ -1,0 +1,26 @@
+%theme-section-1{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  min-height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+%theme-header-1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  margin-bottom:50px;
+  text-align: center;
+}
+
+%animate-down{
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 0.8s ease-in;
+
+  &.isShowing{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

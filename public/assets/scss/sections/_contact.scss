@@ -1,0 +1,25 @@
+#contact-section{
+  @extend %theme-section-1;
+  // background-image: url(../img/bg2.jpg);
+  background-color: $theme-color7;
+
+  .container{
+
+    @extend %animate-down;
+
+    #contact-words{
+      color: #e0e0e0;
+      font-size: x-large;
+    }
+
+    .message{
+      color:$white;
+    }
+    h1 a{
+      @extend %theme-header-1;
+      color:$white;
+      margin-bottom:30px;
+      text-decoration:none;
+    }
+  }
+}

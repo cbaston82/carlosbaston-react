@@ -1,0 +1,15 @@
+#videos-section{
+  @extend %theme-section-1;
+
+  h1{
+    color: $theme-color1;
+  }
+
+  .youtube-video{
+    margin-bottom:30px;
+  }
+
+  a.btn{
+    margin-bottom:30px;
+  }
+}

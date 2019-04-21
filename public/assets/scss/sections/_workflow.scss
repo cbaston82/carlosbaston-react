@@ -1,0 +1,21 @@
+// work secton
+#workflow-section{
+  @extend %theme-section-1;
+  // background-color: rgba(157, 157, 157, 0.09);
+  background-color:$theme-color6;
+  color:$white;
+
+  .container{
+
+    @extend %animate-down;
+
+    img{
+      margin-bottom:20px;
+    }
+
+    h1{
+      @extend %theme-header-1;
+      color: $white;
+    }
+  }
+}

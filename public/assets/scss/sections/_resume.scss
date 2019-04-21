@@ -1,0 +1,33 @@
+#resume-section{
+  @extend %theme-section-1;
+  background-image: url(../img/resume_bg.jpg);
+  background-attachment: fixed;
+
+
+  .row{
+    padding:25px;
+    background-color: $white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    position:relative;
+
+    .download{
+      position:absolute;
+      right: 0;
+      top:0;
+      font-size: 28px;
+      background-color:#eeeeee;
+      padding:15px 30px;
+    }
+
+    .resume-part{
+      margin-bottom:45px;
+    }
+
+    .duties{
+      margin-bottom:45px;
+    }
+
+  }
+
+
+}

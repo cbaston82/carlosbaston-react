@@ -46,6 +46,13 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- A little help for the Netlify post-processing bots -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="contact_name" />
+      <input type="email" name="contact_email" />
+      <input type="text" name="contact_subject" />
+      <textarea name="contact_words"></textarea>
+   </form>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>

@@ -41,8 +41,7 @@ const Contact = () => (
             </a>
           </h1>
         </div>
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" id="get-in-touch-form">
-          <input type="hidden" name="bot-field" />
+        <form name="contact" method="post" id="get-in-touch-form">
           <div className="col-md-6">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_name">

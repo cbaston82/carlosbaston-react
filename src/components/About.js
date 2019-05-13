@@ -5,13 +5,15 @@ const About = () => (
     <div className="container">
       <div className="row clearfix">
         <div className="col-md-12">
-          <h1>ABOUT CARLOS</h1>
+          <h1>ABOUT ME</h1>
           <p className="lead about-me">
+            Hello Folks I&rsquo;m
+            {' '}
             <strong>Carlos</strong>
             {' '}
-             is a software developer based out of Las Vegas, Nevada. He enjoys
+             and I&rsquo;m a software developer based out of Las Vegas, Nevada. I enjoys
              developing dynamic applications using all the latest frameworks and
-             techniques. Carlos enjoys working with the
+             techniques. I also enjoy working with the
             {' '}
             <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>
             {' '}
@@ -19,12 +21,16 @@ const About = () => (
             {' '}
             <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">MEAN</a>
             {' '}
-            Stack environments and is currently working as FullStack Javascript
+            Stack environments and I&rsquo;m currently working as FullStack Javascript
             Developer with a little bit of PHP on the side. Outside of working
-            and studying to perfect his development skills, Carlos enjoys playing
+            and studying to perfect my development skills, I also enjoys playing
             the game of billiards (9-Ball and 8-ball to be exact) around the Las
-            Vegas area.
-
+            Vegas area. I&rsquo;m currently employed and not accepting any full-time
+            work, however I&rsquo;am open on working on side projects.
+            {' '}
+            Feel free to
+            contact me if you have a new or current project you would like for
+            me to look at or to view a list of my personal projects.
           </p>
         </div>
       </div>

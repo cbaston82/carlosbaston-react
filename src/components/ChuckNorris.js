@@ -72,6 +72,11 @@ class ChuckNorris extends React.Component {
                   </a>
                 </div>
               </div>
+              <div className="row clear-fix text-center">
+                <i className="fa fa-copyright" aria-hidden="true" />
+                {' '}
+                2012 - 2019 carlosbaston.com
+              </div>
             </div>
           </section>
         )

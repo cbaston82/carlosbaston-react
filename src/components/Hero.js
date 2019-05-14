@@ -13,19 +13,20 @@ const Hero = () => (
           Student of the web,
           {' '}
           <strong style={{ color: '#e67e21' }}>
-            Full Stack Software Developer
+            Full Stack Software Developer.
           </strong>
-          , aspiring instructor.
         </p>
         <h1>
           IMAGINE
-          <br className="visible-xs" /> &nbsp;
-          <span className="hidden-xs">| </span>
+          <br className="visible-xs" />
           {' '}
-          &nbsp;
+          <span className="hidden-xs">|</span>
+          {' '}
           DESIGN
           <br className="visible-xs" />
-          <span className="hidden-xs"> | </span>
+          {' '}
+          <span className="hidden-xs">|</span>
+          {' '}
           DEVELOP
         </h1>
         <a

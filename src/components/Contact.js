@@ -7,12 +7,12 @@ const Contact = () => (
   <section id="contact-section">
     <div className="container">
       <div className="row clearfix">
-        <div id="contact-words" className="col-md-12 text-center">
+        {/* <div id="contact-words" className="col-md-12 text-center">
           <p style={{ color: '#e67e21' }}>
                 Please contact me if you&#39;d like to work on a project together,
                 or would like to view my private portfolio of applications.
           </p>
-        </div>
+        </div> */}
 
         <div className="col-md-6 text-center">
           <h1>

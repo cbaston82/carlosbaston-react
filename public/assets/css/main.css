@@ -4,7 +4,7 @@
   Version 1.0
 */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300");
-#resume-section, #videos-section, #contact-section, #youtube-section, #chuck-norris-section, #github-section, #idd-section, #personal-project-section, #work-section, #workflow-section, #about-section, #hero-section {
+#resume-section, #videos-section, #contact-section, #youtube-section, #chuck-norris-section, #github-section, #idd-section, #personal-project-section, #work-section, #workflow-section, #knowledge-section, #about-section, #hero-section {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   min-height: calc(100vh - 40px);
@@ -13,19 +13,19 @@
   justify-content: center;
 }
 
-#contact-section .container h1 a, #youtube-section .container h1, #chuck-norris-section .container h1, #github-section .container h1, #idd-section .container h1, #personal-project-section .container h1, #work-section .container h1, #workflow-section .container h1, #about-section .container h1 {
+#contact-section .container h1 a, #youtube-section .container h1, #chuck-norris-section .container h1, #github-section .container h1, #idd-section .container h1, #personal-project-section .container h1, #work-section .container h1, #workflow-section .container h1, #knowledge-section .container h1, #about-section .container h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   margin-bottom: 50px;
   text-align: center;
 }
 
-#contact-section .container, #youtube-section .container, #chuck-norris-section .container, #github-section .container, #idd-section .container, #personal-project-section .container, #work-section .container, #workflow-section .container, #about-section .container {
+#contact-section .container, #youtube-section .container, #chuck-norris-section .container, #github-section .container, #idd-section .container, #personal-project-section .container, #work-section .container, #workflow-section .container, #knowledge-section .container, #about-section .container {
   opacity: 0;
   transform: translateY(-50px);
   transition: all 0.8s ease-in;
 }
-#contact-section .isShowing.container, #youtube-section .isShowing.container, #chuck-norris-section .isShowing.container, #github-section .isShowing.container, #idd-section .isShowing.container, #personal-project-section .isShowing.container, #work-section .isShowing.container, #workflow-section .isShowing.container, #about-section .isShowing.container {
+#contact-section .isShowing.container, #youtube-section .isShowing.container, #chuck-norris-section .isShowing.container, #github-section .isShowing.container, #idd-section .isShowing.container, #personal-project-section .isShowing.container, #work-section .isShowing.container, #workflow-section .isShowing.container, #knowledge-section .isShowing.container, #about-section .isShowing.container {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -158,13 +158,13 @@ h1 {
 .navbar.navbar-default .navbar-nav .active > a.about-me:hover,
 .navbar.navbar-default .navbar-nav .active > a.about-me:focus {
   color: #0e171c;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
-.navbar.navbar-default .navbar-nav .active > a.work-flow,
-.navbar.navbar-default .navbar-nav .active > a.work-flow:hover,
-.navbar.navbar-default .navbar-nav .active > a.work-flow:focus {
-  color: #ffffff;
-  background-color: #1bc5a3;
+.navbar.navbar-default .navbar-nav .active > a.knowledge,
+.navbar.navbar-default .navbar-nav .active > a.knowledge:hover,
+.navbar.navbar-default .navbar-nav .active > a.knowledge:focus {
+  color: #0e171c;
+  background-color: #ffffff;
 }
 .navbar.navbar-default .navbar-nav .active > a.latest-work,
 .navbar.navbar-default .navbar-nav .active > a.latest-work:hover,
@@ -290,7 +290,7 @@ h1 {
   }
 }
 #about-section {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   color: #424242;
 }
 #about-section .container img {
@@ -304,8 +304,12 @@ h1 {
 #about-section .container p.about-me strong {
   color: #424242;
 }
-#about-section .container p.knowledge {
-  font-weight: bold;
+#knowledge-section {
+  background-color: #ffffff;
+  color: #424242;
+}
+#knowledge-section .container img {
+  height: 30px;
 }
 #workflow-section {
   background-color: #1bc5a3;
@@ -394,7 +398,7 @@ h1 {
 }
 
 #chuck-norris-section {
-  background-color: #333333;
+  background-color: #0e171c;
   color: #ffffff;
 }
 #chuck-norris-section .container a {
@@ -543,7 +547,7 @@ div.videos p {
 }
 div.videos p small {
   font-size: 0.7em;
-  color: #cccccc;
+  color: #f7f7f7;
 }
 
 div.videos:hover, div.videos:focus {

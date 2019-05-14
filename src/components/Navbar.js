@@ -23,6 +23,7 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="main-navbar-collapse">
         <ul className="nav navbar-nav navbar-right">
           <li><a className="about-me" href="#about-section">ABOUT ME</a></li>
+          <li><a className="knowledge" href="#knowledge-section">KNOWLEDGE</a></li>
           <li><a className="github" href="#github-section">GITHUB</a></li>
           <li><a className="contact-me" href="#contact-section">CONTACT</a></li>
         </ul>

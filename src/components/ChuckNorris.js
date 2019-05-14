@@ -36,8 +36,9 @@ class ChuckNorris extends React.Component {
       joke
         && (
           <section style={{
-            background: 'rgb(199, 235, 255)',
+            background: '#0e171c',
             padding: '7px 0px',
+            color: '#ffffff',
           }}
           >
             <div className="container">

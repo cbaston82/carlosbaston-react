@@ -1,0 +1,15 @@
+// knowledge section
+#knowledge-section{
+  @extend %theme-section-1;
+  background-color: $white;
+  color:$theme-color5;
+  .container{
+    @extend %animate-down;
+    img{
+      height: 30px;
+    }
+    h1{
+      @extend %theme-header-1;
+    }
+  }
+}

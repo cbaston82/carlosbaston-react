@@ -37,14 +37,14 @@
       .active > a.about-me:focus {
           color: $theme-color1;
           // background-image: url(../img/bg1.jpg);
-          background-color:$white;
+          background-color:$lighter-gray;
       }
 
-      .active > a.work-flow,
-      .active > a.work-flow:hover,
-      .active > a.work-flow:focus {
-          color: $white;
-          background-color: $theme-color6;
+      .active > a.knowledge,
+      .active > a.knowledge:hover,
+      .active > a.knowledge:focus {
+          color: $theme-color1;
+          background-color: $white;
       }
 
       .active > a.latest-work,

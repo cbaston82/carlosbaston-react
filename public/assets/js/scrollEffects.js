@@ -1,18 +1,22 @@
-myScript = function(){
-
-  var wScroll = window.scrollY;
-  var wHeight = window.innerHeight;
+myScript = function () {
+  const wScroll = window.scrollY;
+  const wHeight = window.innerHeight;
 
   if (wScroll > document.querySelector('#about-section').offsetTop - (wHeight / 3)) {
-    document.querySelector('#about-section .container').classList.add("isShowing");
-  };
+    document.querySelector('#about-section .container').classList.add('isShowing');
+  }
+
+
+  if (wScroll > document.querySelector('#knowledge-section').offsetTop - (wHeight / 3)) {
+    document.querySelector('#knowledge-section .container').classList.add('isShowing');
+  }
 
   // if (wScroll > document.querySelector('#chuck-norris-section').offsetTop - (wHeight / 3)) {
   //   document.querySelector('#chuck-norris-section .container').classList.add("isShowing");
   // }
 
   if (wScroll > document.querySelector('#github-section').offsetTop - (wHeight / 3)) {
-    document.querySelector('#github-section .container').classList.add("isShowing");
+    document.querySelector('#github-section .container').classList.add('isShowing');
   }
 
   // if (wScroll > document.querySelector('#youtube-section').offsetTop - (wHeight / 3)) {
@@ -24,9 +28,8 @@ myScript = function(){
   // }
 
   if (wScroll > document.querySelector('#contact-section').offsetTop - (wHeight / 3)) {
-    document.querySelector('#contact-section .container').classList.add("isShowing");
+    document.querySelector('#contact-section .container').classList.add('isShowing');
   }
+};
 
-}
-
-window.addEventListener("scroll", myScript);
+window.addEventListener('scroll', myScript);

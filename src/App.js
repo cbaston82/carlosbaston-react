@@ -5,16 +5,18 @@ import About from './components/About';
 import Github from './components/Github';
 import Contact from './components/Contact';
 import ChuckNorris from './components/ChuckNorris';
+import Knowledge from './components/knowledge';
 
 const App = () => (
   <div className="App">
     <Navbar />
     <Hero />
-    <ChuckNorris />
     <About />
+    <Knowledge />
     <Github />
     {/* <Youtube /> */}
     <Contact />
+    <ChuckNorris />
   </div>
 );
 

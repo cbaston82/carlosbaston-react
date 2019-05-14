@@ -1,14 +1,10 @@
 // about section
 #about-section{
   @extend %theme-section-1;
-  // background-image: url(../img/bg1.jpg);
-  background-color: $white;
+  background-color: $lighter-gray;
   color:$theme-color5;
-
   .container{
-
     @extend %animate-down;
-
     img{
       height: 30px;
     }
@@ -20,14 +16,9 @@
           color:$theme-color5;
         }
     }
-    p.knowledge{
-      font-weight:bold;
-    }
-
     h1{
       @extend %theme-header-1;
     }
-
   }
 
 

@@ -107,6 +107,16 @@ const Knowledge = () => (
             {' '}
             WEBPACK
           </p>
+          <p className="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <img src="assets/img/logos/java-logo.png" alt="" title="" />
+            {' '}
+            JAVA
+          </p>
+          <p className="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <img src="assets/img/logos/spring-framework-logo.png" alt="" title="" />
+            {' '}
+            SPRING
+          </p>
         </div>
       </div>
     </div>

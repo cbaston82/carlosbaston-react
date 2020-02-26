@@ -11,9 +11,9 @@ const About = () => (
             {' '}
             <strong>Carlos</strong>
             {' '}
-             and I&rsquo;m a software developer based out of Las Vegas, Nevada. I enjoys
-             developing dynamic applications using all the latest frameworks and
-             techniques. I also enjoy working with the
+            and I&rsquo;m a software developer based out of Las Vegas, Nevada. I enjoys
+            developing dynamic applications using all the latest frameworks and
+            techniques. I also enjoy working with the
             {' '}
             <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>
             {' '}
@@ -26,6 +26,12 @@ const About = () => (
             and studying to perfect my development skills, I also enjoys playing
             the game of billiards (9-Ball and 8-ball to be exact) around the Las
             Vegas area.
+            <br/>
+            <br/>
+            <strong>Interested in viewing my projects or working together?
+              {' '}
+              <a href="#contact-section">Drop me a few lines</a>
+            </strong>
           </p>
         </div>
       </div>

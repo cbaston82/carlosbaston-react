@@ -122,6 +122,11 @@ const Knowledge = () => (
             {' '}
             CUCUMBER
           </p>
+          <p className="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <img src="assets/img/logos/mysql-logo.png" alt="" title="" />
+            {' '}
+            MYSQL
+          </p>
         </div>
       </div>
     </div>

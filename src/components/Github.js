@@ -35,7 +35,7 @@ const Github = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            VIEW ALL GITHUB PROJECTS
+            VIEW MY PUBLIC GITHUB PROJECTS
             {' '}
             <i className="fa fa-arrow-right" />
           </a>

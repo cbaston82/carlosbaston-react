@@ -13,7 +13,7 @@ const Hero = () => (
           Student of the web,
           {' '}
           <strong style={{ color: '#e67e21' }}>
-            Full Stack Software Developer.
+            Full Stack Software Engineer.
           </strong>
         </p>
         <h1>

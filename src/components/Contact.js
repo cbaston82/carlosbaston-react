@@ -17,7 +17,7 @@ const Contact = () => (
         <div className="col-md-6 text-center">
           <h1>
             <a
-              href="https://twitter.com/@carlosbaston82"
+              href="https://twitter.com/@cbaston82"
               target="_blank"
               rel="noopener noreferrer"
             >

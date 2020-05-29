@@ -11,7 +11,7 @@ const About = () => (
             {' '}
             <strong>Carlos</strong>
             {' '}
-            and I&rsquo;m a software developer based out of Las Vegas, Nevada. I enjoys
+            and I&rsquo;m a Software Engineer based out of Las Vegas, Nevada. I enjoy
             developing dynamic applications using all the latest frameworks and
             techniques. I also enjoy working with the
             {' '}
@@ -21,9 +21,9 @@ const About = () => (
             {' '}
             <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">MEAN</a>
             {' '}
-            Stack environments and I&rsquo;m currently working as FullStack Javascript
-            Developer with a little bit of PHP on the side. Outside of working
-            and studying to perfect my development skills, I also enjoys playing
+            Stack environments and I&rsquo;m currently working as Software Enginner
+            In Test. Outside of working
+            and studying to perfect my development skills, I enjoy playing
             the game of billiards (9-Ball and 8-ball to be exact) around the Las
             Vegas area.
             <br/>

@@ -30,6 +30,10 @@ myScript = function () {
   if (wScroll > document.querySelector('#contact-section').offsetTop - (wHeight / 3)) {
     document.querySelector('#contact-section .container').classList.add('isShowing');
   }
+
+  if (wScroll > document.querySelector('#testimonials-section').offsetTop - (wHeight / 3)) {
+    document.querySelector('#testimonials-section .container').classList.add('isShowing');
+  }
 };
 
 window.addEventListener('scroll', myScript);

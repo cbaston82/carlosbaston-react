@@ -28,6 +28,7 @@ const About = () => (
             Vegas area.
             <br/>
             <br/>
+
             <strong>Interested in viewing my projects or working together?
               {' '}
               <a href="#contact-section">Drop me a few lines</a>

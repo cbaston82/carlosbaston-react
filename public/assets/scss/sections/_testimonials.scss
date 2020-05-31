@@ -1,5 +1,5 @@
-// about section
-#about-section{
+// testimonials section
+#testimonials-section{
   @extend %theme-section-1;
   background-color: $lighter-gray;
   color:$theme-color5;
@@ -8,18 +8,8 @@
     img{
       height: 30px;
     }
-    p.about-me{
-      line-height: 2;
-      color:$gray;
-      margin-bottom:50px;
-        strong{
-          color:$theme-color5;
-        }
-    }
     h1{
       @extend %theme-header-1;
     }
   }
-
-
 }

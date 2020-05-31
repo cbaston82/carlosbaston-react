@@ -25,6 +25,7 @@ const Navbar = () => (
           <li><a className="about-me" href="#about-section">ABOUT ME</a></li>
           <li><a className="knowledge" href="#knowledge-section">KNOWLEDGE</a></li>
           <li><a className="github" href="#github-section">GITHUB</a></li>
+          {/*<li><a className="testimonials" href="#testimonials-section">TESTIMONIALS</a></li>*/}
           <li><a className="contact-me" href="#contact-section">CONTACT</a></li>
         </ul>
       </div>

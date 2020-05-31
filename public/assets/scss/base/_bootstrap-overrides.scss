@@ -43,51 +43,23 @@
       .active > a.knowledge,
       .active > a.knowledge:hover,
       .active > a.knowledge:focus {
-          color: $theme-color1;
-          background-color: $white;
-      }
-
-      .active > a.latest-work,
-      .active > a.latest-work:hover,
-      .active > a.latest-work:focus {
-          color: $white;
-          background-color: $theme-color7;
+        color: $theme-color1;
+        background-color: $light-gray;
       }
 
       .active > a.github,
       .active > a.github:hover,
       .active > a.github:focus {
-          color: $white;
-          background-color: $theme-color2;
-      }
-
-      .active > a.chuck-norris,
-      .active > a.chuck-norris:hover,
-      .active > a.chuck-norris:focus {
-          color: $white;
-          background-color: $chuck-norris;
-      }
-
-      .active > a.youtube,
-      .active > a.youtube:hover,
-      .active > a.youtube:focus {
-          color: $white;
-          background-color: $theme-color8;
-      }
-
-
-      .active > a.bam,
-      .active > a.bam:hover,
-      .active > a.bam:focus {
         color: $white;
-        background-color: $bam-blue;
+        background-color: $theme-color2;
       }
 
-      .active >  a.idd,
-      .active > a.idd:hover,
-      .active > a.idd:focus {
-        color: $white;
-        background-color: $idd-blue;
+      .active > a.testimonials,
+      .active > a.testimonials:hover,
+      .active > a.testimonials:focus {
+        color: $theme-color1;
+        // background-image: url(../img/bg1.jpg);
+        background-color:$lighter-gray;
       }
 
       .active > a.contact-me,
@@ -96,6 +68,45 @@
         color: $white;
         background-color: $theme-color7;
       }
+
+
+      //.active > a.latest-work,
+      //.active > a.latest-work:hover,
+      //.active > a.latest-work:focus {
+      //    color: $white;
+      //    background-color: $theme-color7;
+      //}
+
+
+      //.active > a.chuck-norris,
+      //.active > a.chuck-norris:hover,
+      //.active > a.chuck-norris:focus {
+      //    color: $white;
+      //    background-color: $chuck-norris;
+      //}
+
+      //.active > a.youtube,
+      //.active > a.youtube:hover,
+      //.active > a.youtube:focus {
+      //    color: $white;
+      //    background-color: $theme-color8;
+      //}
+
+
+      //.active > a.bam,
+      //.active > a.bam:hover,
+      //.active > a.bam:focus {
+      //  color: $white;
+      //  background-color: $bam-blue;
+      //}
+
+      //.active >  a.idd,
+      //.active > a.idd:hover,
+      //.active > a.idd:focus {
+      //  color: $white;
+      //  background-color: $idd-blue;
+      //}
+
     }
   }
 }

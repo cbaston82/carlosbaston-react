@@ -11,5 +11,9 @@
     h1{
       @extend %theme-header-1;
     }
+    p{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
   }
 }

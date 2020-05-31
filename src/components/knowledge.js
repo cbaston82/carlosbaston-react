@@ -127,6 +127,11 @@ const Knowledge = () => (
             {' '}
             MYSQL
           </p>
+          <p className="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <img src="assets/img/logos/wordpress-logo.png" alt="" title="" />
+            {' '}
+            WORDPRESS
+          </p>
         </div>
       </div>
     </div>

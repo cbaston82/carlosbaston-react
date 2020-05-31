@@ -17,7 +17,7 @@ const Navbar = () => (
           <span className="icon-bar" />
         </button>
         <a className="navbar-brand" href="#hero-section">
-          Carlos Baston
+          Imagine Design Develop
         </a>
       </div>
       <div className="collapse navbar-collapse" id="main-navbar-collapse">

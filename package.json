@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "scss": "node-sass --watch public/assets/scss -o public/assets/css"
+    "scss": "node-sass --watch public/assets/scss -o public/assets/css"
   },
   "browserslist": [
     ">0.2%",

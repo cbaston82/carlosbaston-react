@@ -14,39 +14,47 @@ const Contact = () => (
           </p>
         </div> */}
 
-        <div className="col-md-6 text-center">
-          <h1>
+        <div className="col-md-4 text-center">
+          <h2>
             <a
               href="https://twitter.com/@cbaston82"
               target="_blank"
               rel="noopener noreferrer"
             >
-                  Twitter
-              {' '}
-              <i className="fa fa-twitter" aria-hidden="true" />
+              Twitter <i className="fa fa-twitter" aria-hidden="true" />
             </a>
-          </h1>
+          </h2>
         </div>
 
-        <div className="col-md-6 text-center">
-          <h1>
+        <div className="col-md-4 text-center">
+          <h2>
+            <a
+              href="https://instagram.com/cbaston82"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram <i className="fa fa-instagram" aria-hidden="true" />
+            </a>
+          </h2>
+        </div>
+
+        <div className="col-md-4: text-center">
+          <h2>
             <a
               href="https://www.linkedin.com/in/carlos-baston-04341484"
               target="_blank"
               rel="noopener noreferrer"
             >
-                  LinkedIn
-              {' '}
-              <i className="fa fa-linkedin" aria-hidden="true" />
+              LinkedIn <i className="fa fa-linkedin" aria-hidden="true" />
             </a>
-          </h1>
+          </h2>
         </div>
         <form name="contact" method="post" id="get-in-touch-form">
           <input type="hidden" name="form-name" value="contact" />
           <div className="col-md-6">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_name">
-                    Name
+                Name
               </label>
               <br />
               <input
@@ -60,7 +68,7 @@ const Contact = () => (
           <div className="col-md-6">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_email">
-                    Email
+                Email
               </label>
               <br />
               <input
@@ -74,7 +82,7 @@ const Contact = () => (
           <div className="col-md-12">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_subject">
-                    Subject
+                Subject
               </label>
               <br />
               <input
@@ -88,7 +96,7 @@ const Contact = () => (
           <div className="col-md-12">
             <div className="form-group">
               <label className="sr-only" htmlFor="contact_words">
-                    Message
+                Message
               </label>
               <br />
               <textarea
@@ -106,7 +114,7 @@ const Contact = () => (
               name="submit"
               className="btn btn-primary btn-lg pull-right hvr-bounce-to-right"
             >
-                Send
+              Send
             </button>
           </div>
         </form>

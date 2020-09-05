@@ -26,3 +26,7 @@ xterm-256color.ti
 screen.ti
 screen-256color.ti
 
+
+# Local Netlify folder
+.netlifybuild
+build/

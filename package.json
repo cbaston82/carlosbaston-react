@@ -14,7 +14,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss": "node-sass --watch public/assets/scss -o public/assets/css"
+    "scss": "node-sass --watch public/assets/scss -o public/assets/css",
+    "lint": "./node_modules/.bin/eslint 'src/'",
+    "pretty": "./node_modules/.bin/prettier --write 'src/'"
   },
   "browserslist": [
     ">0.2%",
@@ -33,5 +35,11 @@
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^2.1.1",
     "prettier-eslint": "^11.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
   }
 }

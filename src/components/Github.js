@@ -6,9 +6,11 @@ const Github = () => (
       <div className="row clearfix">
         <div className="col-md-12 text-center">
           <h1>
-            <span className="github"><i className="fa fa-github" /></span>
+            <span className="github">
+              <i className="fa fa-github" />
+            </span>
             <br />
-                GITHUB PROJECTS
+            GITHUB PROJECTS
           </h1>
           <p className="lead">
             <a
@@ -35,9 +37,7 @@ const Github = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            VIEW MY PUBLIC GITHUB PROJECTS
-            {' '}
-            <i className="fa fa-arrow-right" />
+            VIEW MY PUBLIC GITHUB PROJECTS <i className="fa fa-arrow-right" />
           </a>
         </div>
       </div>

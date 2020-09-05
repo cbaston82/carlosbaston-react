@@ -10,32 +10,23 @@ const Hero = () => (
           alt=""
         />
         <p className="lead">
-          Student of the web,
-          {' '}
+          Student of the web,{' '}
           <strong style={{ color: '#e67e21' }}>
             Full Stack Software Engineer.
           </strong>
         </p>
         <h1>
           IMAGINE
-          <br className="visible-xs" />
-          {' '}
-          <span className="hidden-xs">|</span>
-          {' '}
+          <br className="visible-xs" /> <span className="hidden-xs">|</span>{' '}
           DESIGN
-          <br className="visible-xs" />
-          {' '}
-          <span className="hidden-xs">|</span>
-          {' '}
+          <br className="visible-xs" /> <span className="hidden-xs">|</span>{' '}
           DEVELOP
         </h1>
         <a
           className="btn btn-primary btn-lg hvr-bounce-to-right"
           href="#contact-section"
         >
-          Drop me a few lines
-          {' '}
-          <i className="fa fa-arrow-right" />
+          Drop me a few lines <i className="fa fa-arrow-right" />
         </a>
         <br />
       </div>

@@ -6,9 +6,11 @@ const Youtube = () => (
       <div className="row clearfix">
         <div className="col-md-12 text-center">
           <h1>
-            <span className="youtube"><i className="fa fa-youtube" /></span>
+            <span className="youtube">
+              <i className="fa fa-youtube" />
+            </span>
             <br />
-                Youtube Videos
+            Youtube Videos
           </h1>
           <p className="lead">
             <a
@@ -17,11 +19,9 @@ const Youtube = () => (
               target="_blank"
             >
               {' '}
-              <i className="fa fa-play-circle-o" aria-hidden="true" />
-              {' '}
-                  Watch how to Create a RESTful API using Node.js &amp; Express
+              <i className="fa fa-play-circle-o" aria-hidden="true" /> Watch how
+              to Create a RESTful API using Node.js &amp; Express
             </a>
-
           </p>
           <a
             className="btn btn-primary btn-lg hvr-bounce-to-right"
@@ -30,9 +30,7 @@ const Youtube = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-                VIEW YOUTUBE CHANNEL
-            {' '}
-            <i className="fa fa-arrow-right" />
+            VIEW YOUTUBE CHANNEL <i className="fa fa-arrow-right" />
           </a>
         </div>
       </div>

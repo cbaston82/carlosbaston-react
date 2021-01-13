@@ -14,7 +14,7 @@ const Github = () => (
           </h1>
           <p className="lead">
             <a
-              href="https://github.com/ImagineDesignDevelop/create_a_RESTful_API_tutorial"
+              href="https://github.com/cbaston82/create_a_RESTful_API_tutorial"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -23,7 +23,7 @@ const Github = () => (
           </p>
           <p className="lead">
             <a
-              href="https://github.com/ImagineDesignDevelop/custom-containers-theme.git"
+              href="https://github.com/cbaston82/custom-containers-theme.git"
               target="_blank"
               rel="noopener noreferrer"
             >

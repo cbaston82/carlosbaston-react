@@ -33,7 +33,7 @@ const Github = () => (
           <a
             className="btn btn-primary btn-lg hvr-bounce-to-right"
             role="button"
-            href="https://github.com/ImagineDesignDevelop?tab=repositories"
+            href="https://github.com/cbaston82?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -15,9 +15,10 @@
     .message{
       color:$white;
     }
-    h2 a{
+    h1 a{
       @extend %theme-header-1;
       color:$white;
+      font-size: 50px;
       margin-bottom:30px;
       text-decoration:none;
     }

@@ -7,14 +7,13 @@ const Contact = () => (
   <section id="contact-section">
     <div className="container">
       <div className="row clearfix">
-        {/* <div id="contact-words" className="col-md-12 text-center">
-          <p style={{ color: '#e67e21' }}>
-                Please contact me if you&#39;d like to work on a project together,
-                or would like to view my private portfolio of applications.
+        <div id="contact-words" className="col-md-12 text-center">
+          <p style={{ color: 'rgb(134 161 185)' }}>
+            The best way to contact me is via Email. But feel free to contact me through any of the platforms below.
           </p>
-        </div> */}
+        </div>
 
-        <div className="col-md-4 text-center">
+        <div className="col-md-6 text-center">
           <h1>
             <a
               href="https://twitter.com/@cbaston82"
@@ -26,7 +25,7 @@ const Contact = () => (
           </h1>
         </div>
 
-        <div className="col-md-4 text-center">
+        <div className="col-md-6 text-center">
           <h1>
             <a
               href="https://instagram.com/cbaston82"
@@ -38,7 +37,7 @@ const Contact = () => (
           </h1>
         </div>
 
-        <div className="col-md-4: text-center">
+        <div className="col-md-6 text-center">
           <h1>
             <a
               href="https://www.linkedin.com/in/carlos-baston-04341484"
@@ -46,6 +45,19 @@ const Contact = () => (
               rel="noopener noreferrer"
             >
               LinkedIn <i className="fa fa-linkedin" aria-hidden="true" />
+            </a>
+          </h1>
+        </div>
+
+
+        <div className="col-md-6 text-center">
+          <h1>
+            <a
+              href="mailto:carlosbaston82@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email <i className="fa fa-envelope" aria-hidden="true" />
             </a>
           </h1>
         </div>

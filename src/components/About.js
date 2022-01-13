@@ -22,8 +22,8 @@ const About = () => (
             <a href="https://www.educative.io/edpresso/what-is-mern-stack">
               MERN
             </a>{' '}
-            Stack environments and I&rsquo;m currently working as Software
-            Enginner In Test. Outside of working and studying to perfect my
+            Stack environments and I&rsquo;m currently working as a Manager of Software
+            Enginnering. Outside of working and studying to perfect my
             development skills, I enjoy playing the game of billiards (9-Ball
             and 8-ball to be exact) around the Las Vegas area.
             <br />

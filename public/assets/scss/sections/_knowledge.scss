@@ -1,8 +1,8 @@
 // knowledge section
 #knowledge-section{
   @extend %theme-section-1;
-  background-color: $light-gray;
-  color:$theme-color5;
+  background-color: $black1;
+  color:$white;
   .container{
     @extend %animate-down;
     img{

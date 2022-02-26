@@ -157,8 +157,8 @@ h1 {
 .navbar.navbar-default .navbar-nav .active > a.about-me,
 .navbar.navbar-default .navbar-nav .active > a.about-me:hover,
 .navbar.navbar-default .navbar-nav .active > a.about-me:focus {
-  color: #ffffff;
-  background-color: #242424;
+  color: #0e171c;
+  background-color: #f9f9f9;
 }
 .navbar.navbar-default .navbar-nav .active > a.knowledge,
 .navbar.navbar-default .navbar-nav .active > a.knowledge:hover,
@@ -266,8 +266,8 @@ h1 {
   }
 }
 #about-section {
-  background-color: #242424;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #424242;
 }
 #about-section .container img {
   height: 30px;
@@ -278,7 +278,7 @@ h1 {
   margin-bottom: 50px;
 }
 #about-section .container p.about-me strong {
-  color: #ffffff;
+  color: #424242;
 }
 #testimonials-section {
   background-color: #f9f9f9;

@@ -1,8 +1,8 @@
 // about section
 #about-section{
   @extend %theme-section-1;
-  background-color: $charcoal;
-  color:$white;
+  background-color: $white;
+  color:$theme-color5;
   .container{
     @extend %animate-down;
     img{
@@ -13,7 +13,7 @@
       color:$gray;
       margin-bottom:50px;
         strong{
-          color:$white;
+          color:$theme-color5;
         }
     }
     h1{

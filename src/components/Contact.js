@@ -9,30 +9,19 @@ const Contact = () => (
       <div className="row clearfix">
         <div id="contact-words" className="col-md-12 text-center">
           <p style={{ color: 'rgb(134 161 185)' }}>
-            The best way to contact me is via Email. But feel free to contact me through any of the platforms below.
+            The best way to contact me is via Email. But feel free to contact me
+            through any of the platforms below.
           </p>
         </div>
 
         <div className="col-md-6 text-center">
           <h1>
             <a
-              href="https://twitter.com/@cbaston82"
+              href="mailto:carlosbaston82@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter <i className="fa fa-twitter" aria-hidden="true" />
-            </a>
-          </h1>
-        </div>
-
-        <div className="col-md-6 text-center">
-          <h1>
-            <a
-              href="https://instagram.com/cbaston82"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram <i className="fa fa-instagram" aria-hidden="true" />
+              Email <i className="fa fa-envelope" aria-hidden="true" />
             </a>
           </h1>
         </div>
@@ -49,18 +38,42 @@ const Contact = () => (
           </h1>
         </div>
 
-
-        <div className="col-md-6 text-center">
+        <div className="col-md-4 text-center">
           <h1>
             <a
-              href="mailto:carlosbaston82@gmail.com"
+              href="https://twitter.com/@cbaston82"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Email <i className="fa fa-envelope" aria-hidden="true" />
+              Twitter <i className="fa fa-twitter" aria-hidden="true" />
             </a>
           </h1>
         </div>
+
+        <div className="col-md-4 text-center">
+          <h1>
+            <a
+              href="https://instagram.com/cbaston82"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram <i className="fa fa-instagram" aria-hidden="true" />
+            </a>
+          </h1>
+        </div>
+
+        <div className="col-md-4 text-center">
+          <h1>
+            <a
+              href="https://github.com/cbaston82"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github <i className="fa fa-github" aria-hidden="true" />
+            </a>
+          </h1>
+        </div>
+
         {/*<form name="contact" method="post" id="get-in-touch-form">*/}
         {/*  <input type="hidden" name="form-name" value="contact" />*/}
         {/*  <div className="col-md-6">*/}

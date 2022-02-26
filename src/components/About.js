@@ -8,28 +8,18 @@ const About = () => (
           <h1>ABOUT ME</h1>
           <p className="lead about-me">
             Hello Folks I&rsquo;m <strong>Carlos</strong> and I&rsquo;m a
-            Software Engineer based out of Las Vegas, Nevada. I enjoy developing
-            dynamic applications using all the latest frameworks and techniques.
-            I also enjoy working with the{' '}
-            <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">
-              LAMP
-            </a>
-            ,{' '}
-            <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">
-              MEAN{' '}
-            </a>
-            and{' '}
-            <a href="https://www.educative.io/edpresso/what-is-mern-stack">
-              MERN
-            </a>{' '}
-            Stack environments and I&rsquo;m currently working as a Manager of Software
-            Enginnering. Outside of working and studying to perfect my
-            development skills, I enjoy playing the game of billiards (9-Ball
-            and 8-ball to be exact) around the Las Vegas area.
+            Manager of Software Engineering, student of the web and problem
+            solver. I have a vast knowledge in frontend and backend technologies
+            with a great understanding in building full-stack Software
+            applications. I like to do it all; there is no problem to big that I
+            won&rsquo;t take on because I enjoy solving problems. I&rsquo;m
+            currently residing in Las Vegas, NV where my favorite hobbie outside
+            of coding is playing the game of billiards. I&rsquo;m currently open
+            for hire or if you just want to network that is great too.
             <br />
             <br />
             <strong>
-              Interested in viewing my projects or working together?{' '}
+              Interested in networking, or hiring me?{' '}
               <a href="#contact-section">Drop me a few lines</a>
             </strong>
           </p>

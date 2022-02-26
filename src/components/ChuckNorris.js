@@ -35,7 +35,7 @@ class ChuckNorris extends React.Component {
         <section
           style={{
             background: '#0e171c',
-            padding: '7px 0px',
+            padding: '45px 0px 50px',
             color: '#ffffff',
           }}
         >
@@ -68,7 +68,10 @@ class ChuckNorris extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="row clear-fix text-center">
+            <div
+              className="row clear-fix text-center"
+              style={{ marginTop: '20px' }}
+            >
               <i className="fa fa-copyright" aria-hidden="true" /> 2012 - 2019
               carlosbaston.com
             </div>

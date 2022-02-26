@@ -23,6 +23,7 @@ const Hero = () => (
           DEVELOP
         </h1>
         <a
+          style={{ marginTop: '35px' }}
           className="btn btn-primary btn-lg hvr-bounce-to-right"
           href="#contact-section"
         >

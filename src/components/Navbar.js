@@ -17,7 +17,7 @@ const Navbar = () => (
           <span className="icon-bar" />
         </button>
         <a className="navbar-brand" href="#hero-section">
-          Imagine Design Develop
+          Carlos Baston
         </a>
       </div>
       <div className="collapse navbar-collapse" id="main-navbar-collapse">
@@ -32,11 +32,11 @@ const Navbar = () => (
               KNOWLEDGE
             </a>
           </li>
-          <li>
-            <a className="github" href="#github-section">
-              GITHUB
-            </a>
-          </li>
+          {/* <li> */}
+          {/*   <a className="github" href="#github-section"> */}
+          {/*     GITHUB */}
+          {/*   </a> */}
+          {/* </li> */}
           {/* <li><a className="testimonials" href="#testimonials-section">TESTIMONIALS</a></li> */}
           <li>
             <a className="contact-me" href="#contact-section">

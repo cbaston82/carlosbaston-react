@@ -16,7 +16,7 @@ class ChuckNorris extends React.Component {
       th.setState({
         joke: JSON.stringify(event.data.value.joke),
       });
-    });
+    }).catch(() => {});
   }
 
   next() {
@@ -25,7 +25,7 @@ class ChuckNorris extends React.Component {
       next.setState({
         joke: JSON.stringify(event.data.value.joke),
       });
-    });
+    }).catch(() => {});
   }
 
   render() {
